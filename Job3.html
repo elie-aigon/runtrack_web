@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <h2>Formulaire d'exemple</h2>
+        <form action="traitement.php" method="post">
+            <!-- Champ de texte -->
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            <br>
+    
+            <!-- Champ de mot de passe -->
+            <label for="motDePasse">Mot de passe :</label>
+            <input type="password" id="motDePasse" name="motDePasse" required>
+            <br>
+    
+            <!-- Case à cocher -->
+            <label for="abonnementNewsletter">S'abonner à la newsletter :</label>
+            <input type="checkbox" id="abonnementNewsletter" name="abonnementNewsletter">
+            <br>
+    
+            <!-- Boutons radio -->
+            <label>Genre :</label>
+            <input type="radio" id="homme" name="genre" value="homme">
+            <label for="homme">Homme</label>
+            <input type="radio" id="femme" name="genre" value="femme">
+            <label for="femme">Femme</label>
+            <br>
+    
+            <!-- Bouton de soumission -->
+            <input type="submit" value="Soumettre">
+        </form>
+    </main>
+   
+    <footer>
+
+    </footer> 
+</body>
+</html>
